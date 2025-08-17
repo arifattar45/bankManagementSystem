@@ -11,7 +11,7 @@ public class Conn {
     	        
     	        Class.forName("com.mysql.cj.jdbc.Driver");
     	        
-    	        c = DriverManager.getConnection("jdbc:mysql://localhost:3306/bankmanagementsystem", "root", "Arif45");
+    	        c = DriverManager.getConnection("jdbc:mysql://localhost:3306/bankmanagementsystem", "yout_username", "your_password");
     	        s = c.createStatement();
     	    } catch (Exception e) {
     	    	System.out.println(e);
